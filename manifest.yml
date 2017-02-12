@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: DevMH
+  host: DevMH
+  disk_quota: 1024M
+  services:
+  - DevMH-personality_insights
+  - AlchemyAPI-rz
+  - Visual Recognition-v1
